@@ -19,12 +19,38 @@ body {
     border-bottom: 1px solid white;
 }
 
+.btn-primary {
+    background-color: #36b3a8;
+}
+
+#showcase {
+    background: url('../assets/main.jpeg') bottom center / cover no-repeat;
+    min-height: 750px;
+}
+
+#showcase h1 {
+    font-family: 'Questrial', sans-serif;
+    line-height: 1;
+}
+
+#book {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #1f1f1f;
     }
-    .nav-link:hover{
+
+    .nav-link:hover {
         border-bottom: none;
+    }
+
+    #showcase {
+        min-height: 500px;
+    }
+    #showcase h1 {
+        font-size: 4rem;
     }
 }
