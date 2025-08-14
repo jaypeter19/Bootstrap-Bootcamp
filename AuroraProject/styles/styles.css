@@ -88,9 +88,18 @@ body {
     border-radius: 2rem;
 }
 
-
 #quotes i {
     opacity: 0.3;
+}
+
+.carousel-link {
+    color: #36b3a8;
+    text-decoration: none;
+}
+
+.carousel-link:hover {
+    color: #247871;
+    text-decoration: underline;
 }
 
 #footer {

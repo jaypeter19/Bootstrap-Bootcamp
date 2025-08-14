@@ -167,7 +167,7 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-lg-7 mb-3">
-                    <div id="mainCarousel" class="carousel slide" date-ride="`carousel">
+                    <div id="mainCarousel" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="assets/slider/coffee.png" alt="Carousel Coffe Image" class="d-block w-100">
@@ -182,12 +182,14 @@
                                 <img src="assets/slider/trees.png" alt="Carousel Trees Image" class="d-block w-100">
                             </div>
                         </div>
-                        <a href="#mainCarousel" class="carousel-control-prev" data-slide="prev" role="button"><span
-                                class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span></a>
-                        <a href="#mainCarousel" class="carousel-control-next" data-slide="next" role="button"><span
-                                class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span></a>
+                        <button type="button"  class="carousel-control-prev" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button type="button" class="carousel-control-next" data-bs-target="#mainCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -195,7 +197,7 @@
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aut blanditiis quidem
                         eius dolor ab molestiae optio quia culpa sequi hic cum at, dignissimos velit ducimus quos
                         explicabo in ad?</p>
-                    <a href="#">See for yourself <i class="fa fa-arrow-right"></i></a>
+                    <a href="#" class="carousel-link">See for yourself <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
