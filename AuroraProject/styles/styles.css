@@ -29,8 +29,9 @@ body {
     border: none;
 }
 
-.btn-primary:hover {
-    background-color: #2d968c;
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #2d968c !important;
 }
 
 .btn-outline-primary {
@@ -38,10 +39,11 @@ body {
     border-color: #36b3a8;
 }
 
-.btn-outline-primary:hover {
-    color: #fff;
-    background-color: #36b3a8;
-    border-color: #36b3a8;
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+    color: #fff !important;
+    background-color: #36b3a8 !important;
+    border-color: #36b3a8 !important;
 }
 
 .text-primary {
