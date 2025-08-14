@@ -27,8 +27,13 @@ body {
 .btn-primary {
     background-color: #36b3a8;
 }
+
 .text-primary {
     color: #36b3a8 !important;
+}
+
+.bg-secondary {
+    background-color: #1f1f1f !important;
 }
 
 #showcase {
@@ -65,6 +70,10 @@ body {
     opacity: 0.3;
 }
 
+#footer {
+    font-weight: 100;
+}
+
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #1f1f1f;
@@ -77,6 +86,7 @@ body {
     #showcase {
         min-height: 500px;
     }
+
     #showcase h1 {
         font-size: 4rem;
     }
