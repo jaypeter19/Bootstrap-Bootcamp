@@ -26,6 +26,11 @@ body {
 
 .btn-primary {
     background-color: #36b3a8;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2d968c;
 }
 
 .text-primary {
@@ -56,9 +61,15 @@ body {
     z-index: 2;
 }
 
-#showcase h1 {
+.display-5 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.display-1 {
     font-family: 'Questrial', sans-serif;
     line-height: 1;
+    font-size: 6rem;
 }
 
 #book {
