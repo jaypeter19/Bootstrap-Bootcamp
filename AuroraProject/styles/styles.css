@@ -27,6 +27,9 @@ body {
 .btn-primary {
     background-color: #36b3a8;
 }
+.text-primary {
+    color: #36b3a8 !important;
+}
 
 #showcase {
     background: url('../assets/main.jpeg') bottom center / cover no-repeat;
